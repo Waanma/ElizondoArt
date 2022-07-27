@@ -11,19 +11,7 @@
 
 <!--HTML semantico-->   
 <body>
-    
-    <nav class="nav__list">
-            
-        <a href="../index.html">
-            <img src="../icons/icons8-pincel-100.png" alt="Inicio" width="150px">
-        </a>
-        
-        <!--hipervinculos-->
-        <!--lista desordenada-->
-        
-    
-    </nav>
-
+   
     <main class="contacto__main">
 
         <div class="contacto__contenedor">
@@ -31,7 +19,10 @@
             <div class="contacto__formulario">
 
                 <form class="form" action="procesar.php" name="contacto" method="post">
-                        
+
+                        <a  class="contacto__icono" href="../index.html">
+                            <img src="../icons/icons8-pincel-100.png" alt="Inicio" width="100px">
+                        </a>
                             <h1 class="legend">¡Hace tu consulta!</h1> <!--mensaje-->
                         
                             <!--Formulario-->
@@ -53,15 +44,16 @@
 
                             <p class="textarea">
                                
-                                <textarea name="Dejanos tu mensaje" id="" cols="20" rows="5"></textarea>
+                                <textarea name="Dejanos tu mensaje" id="" cols="20" rows="3"></textarea>
                             </p>
                             
                             <!--Botones-->
-                            
+                            <div class="enviar">
                                 <button type="submit">Enviar</button>
-                            
-                                <button type="reset">Borrar formulario</button>
-                                          
+                            </div>
+                            <div class="borrar">
+                                <button type="reset">Borrar</button>
+                            </div>              
                 </form>
 
             </div>

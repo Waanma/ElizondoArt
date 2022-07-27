@@ -15,63 +15,122 @@
        
         <!--hipervinculos-->
         <!--lista desordenada-->
-        <ul class="nav__list">
-            
-            <a href="../index.html">
-                <img src="../icons/icons8-pincel-100.png" alt="Inicio" width="150px">
-            </a>   
+    <ul class="nav__list--pages">
             <!--Enlaces relativos-->
+        <div class="nav__contenedor--pages">
+                        
+            <div class="inicio--pages">
+                    <a href="../index.html">Inicio</a>
+            </div>
             
-            <li class="btn"> <a href="interior.html">Interior</a> </li>
-            <li class="btn"> <a href="#">Exterior</a> </li>
-            <li class="btn"> <a href="carteleria.html">Carteleria</a> </li>
-            <li class="btn"> <a href="contacto.html">Contacto</a> </li>
-        </ul>
+            <div class="nav__btn--pages">
+                <li class="btn"> <a href="../pages/interior.html">Interior</a> </li>
+                <li class="btn"> <a href="../pages/exterior.html">Exterior</a> </li>
+                <li class="btn"> <a href="../pages/carteleria.html">Carteleria</a> </li>
+                <li class="btn"> <a href="../pages/contacto.html">Contacto</a> </li>
+            </div>
+        </div> 
+    </ul>
     
     </nav>
-    
-    <header>
-         
-    </header>      
         
-    <main>
         
-        <section class="grid-imagenes">
+    <main class="main__pages--desktop">
+        <h1>Murales de exterior</h1>
+        <ul class="galeria">
+            <li><a href="#img1"><img src="../img/murales/exterior/pasillo.jpg" alt=""></a></li>
+            <li><a href="#img2"><img src="../img/murales/exterior/sanmartin.jpg" alt=""></a></li>
+            <li><a href="#img3"><img src="../img/murales/exterior/tchala.jpg" alt=""></a></li>
+            <li><a href="#img4"><img src="../img/murales/exterior/virgen.jpg" alt=""></a></li>
+        </ul>
         
-            <article class="items item1">
-                img
-            </article>
-                
-            <article class="items item2">
-                img
-            </article>
+        <div class="modal" id="img1">
+            <h3>Pasarela</h3>
+            <div class="imagen">
+                <a href="#img4">&#60;</a>
+                <a href=""><img src="../img/murales/exterior/pasillo.jpg" alt=""></a>
+                <a href="#img2">></a>
+            </div>
+            <a class="cerrar" href="">Atras</a>
+        </div>
+        <div class="modal" id="img2">
+            <h3>Club San Martín</h3>
+            <div class="imagen">
+                <a href="#img1">&#60;</a>
+                <a href=""><img src="../img/murales/exterior/sanmartin.jpg" alt=""></a>
+                <a href="#img3">></a>
+            </div>
+            <a class="cerrar" href="">Atras</a>
+        </div>
+        <div class="modal" id="img3">
+            <h3>Tchala</h3>
+            <div class="imagen">
+                <a href="#img2">&#60;</a>
+                <a href=""><img src="../img/murales/exterior/tchala.jpg" alt=""></a>
+                <a href="#img4">></a>
+            </div>
+            <a class="cerrar" href="">Atras</a>
+        </div>
+        <div class="modal" id="img4">
+            <h3>Virgen</h3>
+            <div class="imagen">
+                <a href="#img3">&#60;</a>
+                <a href=""><img src="../img/murales/exterior/virgen.jpg" alt=""></a>
+                <a href="#img1">></a>
+            </div>
+            <a class="cerrar" href="">Atras</a>
+        </div>
 
-            <article class="items item3">
-                img
-            </article>
-
-            <article class="items item4">
-                img
-            </article>
-
-            <article class="items item5">
-                img
-            </article>
-
-            <article class="items item6">
-                img
-            </article>
-        
-        </section>
-    
     </main>
+
+    <div class="contacto__main">
+
+        <div class="contacto__contenedor">
+
+            <div class="contacto__formulario">
+
+                <form class="form" action="procesar.php" name="contacto" method="post">
+
+                        <a  class="contacto__icono" href="../index.html">
+                            <img src="../icons/icons8-pincel-100.png" alt="Inicio" width="100px">
+                        </a>
+                            <h1 class="legend">¡Hace tu consulta!</h1> <!--mensaje-->
+                        
+                            <!--Formulario-->
+                            <p>
+                                                        
+                                    <input name="nombre" placeholder="Nombre" required>
+                                </label>
+                            </p>
+                            <p>
+                                                       
+                                    <input type="text" name="apellido" placeholder="Apellido" required>
+                                
+                            </p>
+                            <p>
+                                                       
+                                    <input type="email" name="email" placeholder="Ejemplo@mail.com" required>
+                                
+                            </p>
+
+                            <p class="textarea">
+                               
+                                <textarea name="Dejanos tu mensaje" id="" cols="20" rows="3"></textarea>
+                            </p>
+                            
+                            <!--Botones-->
+                            <div class="enviar">
+                                <button type="submit">Enviar</button>
+                            </div>
+                            <div class="borrar">
+                                <button type="reset">Borrar</button>
+                            </div>              
+                </form>
+
+            </div>
+        </div>
     
-
-    <footer id="footer">
-
-        <h2>Redes Sociales</h2>
-
-    </footer>
-
+    </div>
+    
 </body>
 </html>
