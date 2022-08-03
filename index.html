@@ -135,7 +135,7 @@
                     <a class="vermas__boton" href="pages/carteleria.html">
                         Ver más
                     </a>
-                    </div>         
+                </div>         
                 
             </article> 
 
@@ -145,24 +145,24 @@
         
                     <div class="contacto__formulario">
         
-                        <form class="form" action="procesar.php" name="contacto" method="post">
+                        <form class="form form-floating mb-3" action="procesar.php" name="contacto" method="post">
         
                                     <h1 class="legend">¡Hace tu consulta!</h1> <!--mensaje-->
                                 
                                     <!--Formulario-->
                                     <p>
                                                                 
-                                            <input name="nombre" placeholder="Nombre" required>
+                                            <input class="form-control" id="floatingInput" name="nombre" placeholder="Nombre" required>
                                         </label>
                                     </p>
                                     <p>
                                                                
-                                            <input type="text" name="apellido" placeholder="Apellido" required>
+                                            <input class="form-control" id="floatingInput" type="text" name="apellido" placeholder="Apellido" required>
                                         
                                     </p>
                                     <p>
                                                                
-                                            <input type="email" name="email" placeholder="Ejemplo@mail.com" required>
+                                            <input class="form-control" id="floatingInput" type="email" name="email" placeholder="Ejemplo@mail.com" required>
                                         
                                     </p>
         
@@ -177,7 +177,8 @@
                                     </div>
                                     <div class="borrar">
                                         <button type="reset">Borrar</button>
-                                    </div>              
+                                    </div> 
+                                                 
                         </form>
         
                     </div>
@@ -187,10 +188,10 @@
                             
     </main>
 
-    <footer id="footer">
+    <footer class="footer__master">
 
         
-        <ul class="footer__iconos">
+        
 
             <div class="footer__icono">
                 <a href="https://www.whatsapp.com/?lang=es" target="_blank">
@@ -207,7 +208,7 @@
                     <img class="contactos" src="icons/icons8-instagram-200.png" alt="Instagram">
                 </a>
             </div>
-        </ul>
+        
 
     </footer>
 

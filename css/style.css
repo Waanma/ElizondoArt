@@ -180,7 +180,7 @@ nav .nav__contenedor .nav__btn a{
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 6px;
     gap: 10px;
         
 }
@@ -285,25 +285,25 @@ nav .nav__contenedor .nav__btn a{
 .vermas{
 
     display: flex;
-    justify-content: center;    
+    border-bottom: 1px antiquewhite solid;
+    border-radius: 100%;
+    width: 100%;
+    justify-content: center;
 }
 .vermas__boton{
-
+    text-align: center;
+    
     font-size: 6rem;
     font-family: 'the nautigal', cursive;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    border-radius: 70px;
-    padding-left: 50px;
-    padding-right: 50px;  
-    background-color: rgba(255, 218, 6, 0.852);
-    box-shadow: -1px 2px 43px 9px rgba(0,0,0,0.56) inset;
-    -webkit-box-shadow: -1px 2px 43px 9px rgba(0,0,0,0.56) inset;
-    -moz-box-shadow: -1px 2px 43px 9px rgba(0,0,0,0.56) inset;
+    color: rgb(255, 208, 0);  
+    background-color: transparent;
+    
 }
 .vermas__boton:hover{
     scale: 1.1;
     transition: 0.5s;
+    color: red;
 }
 
 /*Main de las paginas*/
@@ -341,6 +341,10 @@ nav .nav__contenedor .nav__btn a{
     box-shadow: 2px 2px 4px white;
 }
 
+.inicio--pages--mobile{
+    display: none;
+}
+
 /*===============================galeria=================================*/
 .galeria{
     width: 90%;
@@ -363,7 +367,7 @@ nav .nav__contenedor .nav__btn a{
 }
 
 .galeria img:hover{
-    scale: 1.2;
+    scale: 1.1;
     transition: 1s;
     border-radius: 10%;
 }
@@ -444,12 +448,6 @@ nav .nav__contenedor .nav__btn a{
 
 /*==================================FORMULARIO DE CONTACTO======================================*/
 
-.contactos{
-
-   width: 150px;
-   height: 150px;
-}
-
 /*FORMULARIO*/
 .contacto__main{
     
@@ -474,7 +472,7 @@ nav .nav__contenedor .nav__btn a{
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 50px;
-    background: linear-gradient(to bottom,#160d2b, #7a3f95a8 );
+    background: #160d2b;
     
 }
 .contacto__contenedor > *{
@@ -488,6 +486,7 @@ nav .nav__contenedor .nav__btn a{
     -moz-box-shadow: 6px -4px 17px 6px rgba(0,0,0,0.75);
     padding: auto;
     border-radius: 25px;
+    background-color: rgb(61, 25, 79);
 }
 .contacto__icono{
         display: flex;
@@ -502,6 +501,7 @@ nav .nav__contenedor .nav__btn a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    background-color: rgb(61, 25, 79);
         
 }
 .contacto__formulario form .textarea{
@@ -531,9 +531,9 @@ nav .nav__contenedor .nav__btn a{
     grid-column: 3/6;
 }
 .contacto__formulario form button{
-    
-    text-shadow: 2px -2px 1px black;
-    background-color: #57037ea8;
+
+    background-color: rgb(255, 218, 6);
+    color: rgb(61, 25, 79);
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -590,18 +590,26 @@ nav .nav__contenedor .nav__btn a{
 
 
 /*==================================Footer======================================*/
-#footer > *{
+.footer__master{
 
     display: flex;
     width: 100%;
-    height: 220px;
+    height: 200px;
     padding: 10px 10px;
     font-family: 'Anton', sans-serif;
-    background: linear-gradient(to bottom, #57037ea8, rgb(0, 0, 0));
-    align-items: flex-end;
+    background: linear-gradient(to bottom, #160d2b, rgb(0, 0, 0));
     justify-content: space-evenly;
+
+    grid-template-columns: repeat(3, 1fr);
     
 }
+
+.contactos{
+
+    width: 150px;
+    height: 150px;
+ }
+
 .footer__icono:hover{
     scale: 1.1;
     transition: 0.5s;
@@ -824,21 +832,20 @@ nav .nav__contenedor .nav__btn a{
     .vermas{
 
         display: flex;
-        justify-content: space-around;
-        
+        border-bottom: 1px antiquewhite solid;
+        border-radius: 100%;
+        width: 100%;
+        justify-content: center;
     }
-    
     .vermas__boton{
+        text-align: center;
         
-        padding-right: 35px;
-        padding-left: 35px;
         font-size: 3rem;
         font-family: 'the nautigal', cursive;
         text-decoration: none;
-        color: antiquewhite;
-        border-radius: 70px; 
+        color: rgb(255, 208, 0);  
         background-color: transparent;
-        box-shadow: black 1px 1px 1px 1px;
+        
     }
 
     .contenedor__imagenes{
@@ -1087,7 +1094,7 @@ nav .nav__contenedor .nav__btn a{
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 150px;
-    background: linear-gradient(to bottom,#57037ea8, black );
+    background: linear-gradient(to bottom,#160d2b, #110a22 );
     
 }
 
@@ -1095,11 +1102,8 @@ nav .nav__contenedor .nav__btn a{
     height: 100%;
     color: rgb(0, 0, 0);
     font-family: 'poppins', sans-serif;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    background: linear-gradient(to bottom,#7a3f95a8, #7a3f95a8 );
+    padding: 60px;
+    background: linear-gradient(to bottom,#160d2b, #160d2b );
     
 }
 
@@ -1131,7 +1135,7 @@ nav .nav__contenedor .nav__btn a{
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 10px;
         
 }
 
@@ -1157,12 +1161,13 @@ nav .nav__contenedor .nav__btn a{
     font-size: 2rem;
     width: 100%;
     padding: 2px;
+    padding-left: 20px;
     border: none;
     background: none;
     outline: 0;
     border-radius: 25px;
-    border-bottom: 3px solid rgb(58, 12, 101);
-    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 208, 0);
+    color: rgb(255, 218, 6);
 }
 
 
@@ -1171,11 +1176,13 @@ nav .nav__contenedor .nav__btn a{
 }
 
 .contacto__formulario form button{
+
+    background-color: rgb(255, 218, 6);
     
-    background-color: #57037ea8;
+    color: rgb(61, 25, 79);
     border: 0;
     text-transform: uppercase;
-    padding: 1em;
+    padding: 1rem;
     box-shadow: 1px -1px 1px black;
     
 }
@@ -1203,16 +1210,11 @@ nav .nav__contenedor .nav__btn a{
 }
 
     
-    .footer__iconos{
-
-        justify-content: center;
-        align-items: center;
-    }
-
+    
     .footer__icono{
         justify-content: center;
         align-items: center;
-        height: 50px;
+        height: 60px;
     }
 
     .contactos{
@@ -1220,18 +1222,20 @@ nav .nav__contenedor .nav__btn a{
         width: 80px;
     }
 
-    #footer > *{
+    .footer__master{
 
         display: flex;
         width: 100%;
         height: 100px;
-        padding: auto;
+        padding: 10px 10px;
         font-family: 'Anton', sans-serif;
-        background: linear-gradient(to bottom, #57037ea8, rgb(32, 32, 32));
-        align-items: flex-end;
-        justify-content: space-between;
+        background: linear-gradient(to bottom, #160d2b, rgb(0, 0, 0));
+        justify-content: space-evenly;
+    
+        grid-template-columns: repeat(3, 1fr);
         
     }
+
 }
 
 /*==================================Fin de Media Tablet======================================*/
@@ -1325,13 +1329,8 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.inicio--pages{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        
-}
+
+
 
 .nav__contenedor .vinculos{
     
@@ -1411,36 +1410,60 @@ grid-column-start: span 4;
     grid-row: 3/4;
 }
 
-.vermas__boton{
+.vermas{
 
-    font-size: 1.5rem;
-    background-color: rgba(255, 218, 6, 0.852);
-    padding-left: 4px;
-    padding-top: 2px;
-    padding-right: 6px;
-    color: black;
+    display: flex;
+    border-bottom: 1px antiquewhite solid;
+    border-radius: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.vermas__boton{
+    text-align: center;
+    
+    font-size: 1rem;
+    font-family: 'the nautigal', cursive;
+    text-decoration: none;
+    color: rgb(255, 208, 0);  
+    background-color: transparent;
+    
 }
 
 
-    .inicio--pages{    
-        font-size: 2rem;
-        justify-content: flex-start;
+    .inicio--pages--mobile{
         
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 3rem;
+        background-color: #160d2b;
+        padding: 15px;
     }
-    .inicio--pages a{
+
+
+    .inicio--pages--mobile a{
         text-decoration: none;
-        text-shadow: 2px -1px 1px black;
+        text-shadow: 1px -1px 1px black;
         color: rgb(0, 0, 0);
         font-family: 'poppins', cursive;
+        font-size: 1.5rem;
         background-color: rgb(210, 196, 1);
         border-radius: 20px;
         padding-left: 7px;
         padding-right: 7px;
         box-shadow: 2px 2px 4px rgb(0, 0, 0);
+        
+    }
+
+    .inicio--pages--mobile h1{
+        font-family: 'poppins';
+        color: antiquewhite;
+        font-size: 2rem;
     }
 
     .main__pages--desktop{
 
+        display: flex;
         height: 100%;
         background: linear-gradient(to bottom, #160d2b, #160d2b);
         padding-top: 0px; 
@@ -1455,12 +1478,12 @@ grid-column-start: span 4;
     }
 
     .main__pages--desktop h1{
-        display: flex;
+        
         justify-content: center;
         align-items: center;
         text-align: center;
         font-family: 'poppins';
-        font-size: 3em;
+        font-size: 1em;
         color: antiquewhite;
         padding-bottom: 10px;
         padding-top: 0px;
@@ -1483,18 +1506,20 @@ grid-column-start: span 4;
         width: 90%;
         margin: auto;
         list-style: none;
-        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
         box-sizing: border-box;
     
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 2px ;
+        gap: 2px;
+        
     }
     .galeria img{
         width: 100px;
         height: 100px;
         border-radius: 25px;
-        padding: 10px;
+        padding: 1px;
     }
     .modal{
         display: none;
@@ -1541,7 +1566,7 @@ grid-column-start: span 4;
     .imagen img{
         background-size: cover;
         width: auto;
-        max-width: 90%;
+        max-width: 60%;
         border: 3px solid rgb(0, 0, 0);
         box-sizing: border-box;
         border-radius: 10px;
@@ -1551,6 +1576,7 @@ grid-column-start: span 4;
     .imagen a:nth-child(2){
         margin: 0;
         height: 100%;
+        width: 70%;
         flex-shrink: 2;
         
     }
@@ -1569,7 +1595,7 @@ grid-column-start: span 4;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
-    background: linear-gradient(to bottom,#7a3f95a8, #7a3f95a8 );
+    background: #160d2b;
     
 }
 
@@ -1609,6 +1635,7 @@ grid-column-start: span 4;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    background-color: rgb(61, 25, 79);
         
 }
 
@@ -1623,15 +1650,11 @@ grid-column-start: span 4;
 .contacto__formulario form p{
 
     grid-column: 1/5;
-    margin: 0;
+    margin: 2px;
     padding: .1rem;
        
 }
 
-.contacto__formulario form button{
-
-    font-size: 0.8rem;
-}
 
 .contacto__formulario form input,
 .contacto__formulario form textarea{
@@ -1643,8 +1666,8 @@ grid-column-start: span 4;
     background: none;
     outline: 0;
     border-radius: 25px;
-    border-bottom: 3px solid rgb(58, 12, 101);
-    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(58, 12, 101);
+    color: rgb(255, 204, 0);
 }
 
 
@@ -1654,8 +1677,8 @@ grid-column-start: span 4;
 
 .contacto__formulario form button{
     
-    
-    background-color: #57037ea8;
+    font-size: 0.8rem;
+    background-color: rgb(255, 208, 0);
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -1675,6 +1698,35 @@ grid-column-start: span 4;
     scale: 1.03;
     transition: .5s;
 }
+
+
+/*footer*/
+
+.footer__master{
+
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    font-family: 'Anton', sans-serif;
+    background: linear-gradient(to bottom, #160d2b, rgb(0, 0, 0));
+    justify-content: space-evenly;
+
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.footer__iconos{
+        
+    justify-content: center;
+    
+}
+
+.contactos{
+
+    width: 60px;
+    height: 60px;
+ }
 
 }
 
