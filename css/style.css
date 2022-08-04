@@ -326,24 +326,23 @@ nav .nav__contenedor .nav__btn a{
 }
 
 .inicio--pages{    
-    font-size: 3rem;
-    
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+        
 }
+
 .inicio--pages a{
-    text-decoration: none;
+
     color: rgb(0, 0, 0);
     font-family: 'poppins', cursive;
-    margin: 50px;
-    background-color: rgb(210, 196, 1);
-    border-radius: 20px;
-    padding-left: 7px;
-    padding-right: 7px;
-    box-shadow: 2px 2px 4px white;
+    
 }
 
 .inicio--pages--mobile{
     display: none;
 }
+
 
 /*===============================galeria=================================*/
 .galeria{
@@ -488,15 +487,7 @@ nav .nav__contenedor .nav__btn a{
     border-radius: 25px;
     background-color: rgb(61, 25, 79);
 }
-.contacto__icono{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        grid-column: 1/2;
-        color: antiquewhite;
-        font-size: 1.5rem;
-        margin: 25px;
-}
+
 .contacto__formulario form{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1279,9 +1270,15 @@ nav{
     display: none;
 }
 
+.inicio--pages--mobile{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
 .titulo {
-        
-    
+           
     font-family: 'The Nautigal', cursive;
     font-size: 4rem;
     color: antiquewhite;
@@ -1428,42 +1425,9 @@ grid-column-start: span 4;
     background-color: transparent;
     
 }
-
-
-    .inicio--pages--mobile{
-        
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 3rem;
-        background-color: #160d2b;
-        padding: 15px;
-    }
-
-
-    .inicio--pages--mobile a{
-        text-decoration: none;
-        text-shadow: 1px -1px 1px black;
-        color: rgb(0, 0, 0);
-        font-family: 'poppins', cursive;
-        font-size: 1.5rem;
-        background-color: rgb(210, 196, 1);
-        border-radius: 20px;
-        padding-left: 7px;
-        padding-right: 7px;
-        box-shadow: 2px 2px 4px rgb(0, 0, 0);
-        
-    }
-
-    .inicio--pages--mobile h1{
-        font-family: 'poppins';
-        color: antiquewhite;
-        font-size: 2rem;
-    }
-
+    
     .main__pages--desktop{
 
-        display: flex;
         height: 100%;
         background: linear-gradient(to bottom, #160d2b, #160d2b);
         padding-top: 0px; 
@@ -1474,7 +1438,7 @@ grid-column-start: span 4;
         color: antiquewhite;
         text-decoration: none;
         font-family: 'poppins', cursive;
-        margin: 25px;
+        margin: 15px;
     }
 
     .main__pages--desktop h1{
@@ -1483,12 +1447,14 @@ grid-column-start: span 4;
         align-items: center;
         text-align: center;
         font-family: 'poppins';
-        font-size: 1em;
+        font-size: 2rem;
         color: antiquewhite;
         padding-bottom: 10px;
         padding-top: 0px;
 
     }
+
+    
     /*galeria*/
     .main__pages{
         
@@ -1500,6 +1466,19 @@ grid-column-start: span 4;
         color: antiquewhite;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .header__pages{
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 2rem;
+    }
+
+    .header__pages h1{
+        grid-column: 2/4;
+        padding-top: 20px;
+        justify-content: flex-start;
     }
     
     .galeria{
@@ -1516,8 +1495,8 @@ grid-column-start: span 4;
         
     }
     .galeria img{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         border-radius: 25px;
         padding: 1px;
     }
