@@ -579,10 +579,10 @@ nav .nav__contenedor .nav__btn a{
     .banner1 > *{
         width: 100%;
         height: 150px;
-        background: linear-gradient(to bottom, #000000, #180e31);               
+        background: linear-gradient(to bottom, #000000, #6fb3cb);               
     }
     .banner2{
-        background: linear-gradient(to bottom, #160d2b, #160d2b);
+        background-color: #6fb3cb;
     }
     .titulo{
         font-size: 6rem;
@@ -593,7 +593,7 @@ nav .nav__contenedor .nav__btn a{
 /*NAV*/
 
 .nav__contenedor{
-    background-color: #160d2b;
+    background-color: #6fb3cb;
     height: 10px;
     width: 100%;
     padding-top: 30px;
@@ -693,7 +693,7 @@ nav .nav__contenedor .nav__btn a{
         font-family: 'Kaushan Script', cursive;
         font-size: 1.5rem;
         padding-top: 1rem;
-        text-shadow: 3px 3px rgba(0, 0, 0, 0.603);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.603);
         color: antiquewhite;
     }
     .vermas{
@@ -708,7 +708,7 @@ nav .nav__contenedor .nav__btn a{
         font-size: 3rem;
         font-family: 'the nautigal', cursive;
         text-decoration: none;
-        color: rgb(255, 208, 0);  
+        color: red;  
         background-color: transparent;
         
     }
@@ -934,7 +934,7 @@ nav .nav__contenedor .nav__btn a{
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 150px;
-    background: linear-gradient(to bottom,#160d2b, #110a22 );    
+    background-color: #6fb3cb;    
 }
 
 .contacto__main--index{
@@ -942,7 +942,7 @@ nav .nav__contenedor .nav__btn a{
     color: rgb(0, 0, 0);
     font-family: 'poppins', sans-serif;
     padding: 60px;
-    background: linear-gradient(to bottom,#160d2b, #160d2b );    
+    background-color: #6fb3cb;    
 }
 
 .contacto__contenedor > *{
@@ -1034,7 +1034,7 @@ nav .nav__contenedor .nav__btn a{
         height: 100px;
         padding: 10px 10px;
         font-family: 'Anton', sans-serif;
-        background: linear-gradient(to bottom, #160d2b, rgb(0, 0, 0));
+        background: linear-gradient(to bottom, #6fb3cb, rgb(0, 0, 0));
         justify-content: space-evenly;    
         grid-template-columns: repeat(3, 1fr);        
     }
@@ -1052,7 +1052,7 @@ nav .nav__contenedor .nav__btn a{
     .banner1 > *{        
         width: 100%;
         height: 120px;
-        background: linear-gradient(to bottom, #000000, #180e31);        
+        background: linear-gradient(to bottom, black, #6fb3cb);        
         display: flex;
         align-items: center;
         justify-content: center;    
@@ -1061,7 +1061,7 @@ nav .nav__contenedor .nav__btn a{
     width: 100%;
     height: 100%;
     padding-top: 10px;    
-    background: linear-gradient(to bottom, #160d2b, #160d2b);
+    background-color: #5c94a8;
 }
 nav{
     display: none;
@@ -1087,7 +1087,7 @@ nav{
 }
 .dropdown{
     display: flex;
-    background-color: #160d2b;
+    background-color: #5c94a8;
     padding: 15px;
 }
 .dropdown-menu li a{
@@ -1322,7 +1322,7 @@ grid-column-start: span 4;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
-    background: #160d2b;    
+    background: #5c94a8;    
 }
 
 .contacto__contenedor > *{
@@ -1409,7 +1409,7 @@ grid-column-start: span 4;
     height: 100px;
     padding: 10px 10px;
     font-family: 'Anton', sans-serif;
-    background: linear-gradient(to bottom, #160d2b, rgb(0, 0, 0));
+    background: linear-gradient(to bottom, #5c94a8, rgb(0, 0, 0));
     justify-content: space-evenly;
     grid-template-columns: repeat(3, 1fr);    
 }
