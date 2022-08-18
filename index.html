@@ -27,22 +27,25 @@
 
 </head>
 <!--HTML semantico-->   
-<body>
-   
+<body>   
     <header class="banner1">        
         <div>
             <h1 class="titulo">
                 Elizondo Art
             </h1>    
-        </div> 
+        </div>             
     </header>
-
-    <nav>
+    <nav>       
+            <!--hipervinculos-->
+            <!--lista desordenada-->
+        
                 <!--Enlaces relativos-->
             <div class="nav__contenedor">
+
                 <div class="muralismo">
                     <h2 class="subtitulo">Muralismo</h2>
                 </div>
+
                 <div class="nav__btn">
                 <li class="vinculos"> <a href="pages/interior.html">Interior</a> </li>
                 <li class="vinculos"> <a href="pages/exterior.html">Exterior</a> </li>
@@ -51,7 +54,6 @@
                 </div>
             </div>              
     </nav>
-
     <div class="dropdown">        
             <button class="btn btn-secondary btn-sm dropdown-toggle btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">            
             </button>
@@ -62,7 +64,6 @@
             <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
             </ul>        
     </div>          
-
     <main class="banner2">                
                 <h2 class="font-murales">Murales de interior</h2>                
             <article class="contenedor__imagenes">
@@ -75,7 +76,6 @@
                     <img class="contenedor__murales mural--hops" src="img/murales/interior/personajes.jpg" alt="9">
                     <img class="contenedor__murales mural--pulpo" src="img/murales/interior/interiorpulpo.jpg" alt="11">                    
             </article>
-
                 <div class="vermas">
                     <a class="vermas__boton" href="pages/interior.html">
                         Ver más
@@ -88,9 +88,8 @@
                         <img class="contenedor__murales mural--tchala" src="img/murales/exterior/tchala.jpg" alt="3">
                         <img class="contenedor__murales  mural--cisnes2" src="img/murales/interior/cisnes2.jpg" alt="4"> 
                         <img class="contenedor__murales  mural--cisnes" src="img/murales/interior/cisnes.jpg" alt="3">
-                        <img class="contenedor__murales mural--sanmartin" src="img/murales/exterior/up.jpg" alt="2">                                                               
-                </article>
-            
+                        <img class="contenedor__murales mural--sanmartin" src="img/murales/exterior/up.jpg" alt="2">                                                
+                </article>            
                 <div class="vermas">
                 <a class="vermas__boton" href="pages/exterior.html">
                     Ver más
@@ -107,15 +106,13 @@
                     <a class="vermas__boton" href="pages/carteleria.html">
                         Ver más
                     </a>
-                </div>     
+                </div>       
             </article> 
-
             <div class="contacto__main--index">
                 <div class="contacto__contenedor">        
                     <div class="contacto__formulario">        
                         <form class="form form-floating mb-3" action="procesar.php" name="contacto" method="post">        
-                                    <h1 class="legend">¡Hace tu consulta!</h1> <!--mensaje-->
-                                
+                                    <h1 class="legend">¡Hace tu consulta!</h1> <!--mensaje-->                                
                                     <!--Formulario-->
                                     <p>                                                                
                                             <input class="form-control" id="floatingInput" name="nombre" placeholder="Nombre" required>
@@ -127,9 +124,10 @@
                                     <p>                                                               
                                             <input class="form-control" id="floatingInput" type="email" name="email" placeholder="Ejemplo@mail.com" required>                                        
                                     </p>        
-                                    <p class="textarea">                                       
+                                    <p class="textarea">
                                         <textarea name="Dejanos tu mensaje" id="" cols="20" rows="5"></textarea>
-                                    </p>                                    
+                                    </p>
+                                    
                                     <!--Botones-->
                                     <div class="enviar">
                                         <button type="submit">Enviar</button>
@@ -143,7 +141,7 @@
             </div>                            
     </main>
 
-    <footer class="footer__master">   
+    <footer class="footer__master">      
             <div class="footer__icono">
                 <a href="https://www.whatsapp.com/?lang=es" target="_blank">
                     <img class="contactos" src="icons/icons8-whatsapp-200.png" alt="Whatsapp">
@@ -158,8 +156,8 @@
                 <a href="https://www.instagram.com" target="_blank">
                     <img class="contactos" src="icons/icons8-instagram-200.png" alt="Instagram">
                 </a>
-            </div>    
-    </footer>    
+            </div>        
+    </footer>   
 
     <!--BOOTSTRAP el script (ya que es un script de javascript) se pone antes del cierre de body para que carguen bien las animaciones-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
