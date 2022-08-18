@@ -47,11 +47,24 @@ $color-fondo: #6fb3cb;
 $color-fonts: antiquewhite;
 $fuente-nav: 'Kaushan Script', cursive;
 
+// mixins
+
+@mixin imagenes_index{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: -1px 2px 43px 9px rgb(0, 0, 0);
+    -webkit-box-shadow: -1px 2px 43px 9px rgb(0, 0, 0);
+    -moz-box-shadow: -1px 2px 43px 9px rgb(0, 0, 0); 
+}
+
+
+
 /*banner*/
 .banner1 > *{  
     width: 100%;
     height: 300px;
-    /*background-image: url('../img/backgrounds/paredladrillos.jpg');*/
     background: linear-gradient(to bottom, #000000, $color-fondo);    
     display: flex;
     align-items: center;
@@ -93,7 +106,7 @@ nav .nav__contenedor .nav__btn a{
     color: $color-fonts;
 }
 .subtitulo{
-    font-size: 8rem;
+    font-size: 7rem;
     font-family: 'the nautigal', cursive;
     color: $color-fonts;
 }
@@ -151,13 +164,8 @@ nav .nav__contenedor .nav__btn a{
     gap: 10px;
 }
 .contenedor__murales{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: -1px 2px 43px 9px rgb(0, 0, 0);
-    -webkit-box-shadow: -1px 2px 43px 9px rgb(0, 0, 0);
-    -moz-box-shadow: -1px 2px 43px 9px rgb(0, 0, 0);    
+       @include imagenes_index();
+        
 }
 .contenedor__murales:hover{
     scale: 1.03;

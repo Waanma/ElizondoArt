@@ -1,0 +1,20 @@
+Etiquetas index: "MURAL, MURALES, MURALISMO, MURALISMO ARGENTINA, MERLO, MERLO SAN LUIS, CARTELERIA, PINTURA"
+Description: "Muralismo, Cartelería, letras y más"
+
+
+etiquetas carteleria: "MURALISMO ARGENTINA, MERLO, MERLO SAN LUIS, CARTELERIA, PINTURA, CARTEL, CARTELES"
+descripcion: "Cartelería, fileteado, letras y mucho más"
+
+
+etiquetas contacto: "MURAL, MURALES, MURALISMO, MURALISMO ARGENTINA, MERLO, MERLO SAN LUIS, CARTELERIA, PINTURA"
+descripcion: "Muralismo, Cartelería, letras y más"
+
+
+etiquetas exterior: "MURAL, MURALES, MURALISMO, MURALISMO ARGENTINA, MERLO, MERLO SAN LUIS, CARTELERIA, PINTURA, MURALES DE EXTERIOR"
+descripcion: "Murales de exterior"
+
+etiquetas interior: "MURAL, MURALES, MURALISMO, MURALISMO ARGENTINA, MERLO, MERLO SAN LUIS, CARTELERIA, PINTURA"
+descripcion: "Murales de interior"
+
+
+
