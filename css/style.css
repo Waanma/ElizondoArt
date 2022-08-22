@@ -53,7 +53,7 @@ main {
   justify-content: center;
 }
 
-.banner2 {
+.banner2, .nav__contenedor {
   width: 100%;
   height: 100%;
   background: #6fb3cb;
@@ -74,9 +74,6 @@ main {
 .nav__contenedor {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: #6fb3cb;
-  height: 10px;
-  width: 100%;
   padding-top: 30px;
 }
 
@@ -615,7 +612,7 @@ nav .nav__contenedor .nav__btn a {
     height: 150px;
     background: linear-gradient(to bottom, #000000, #6fb3cb);
   }
-  .banner2 {
+  .banner2, .nav__contenedor {
     background-color: #6fb3cb;
   }
   .titulo {
@@ -1061,7 +1058,7 @@ nav .nav__contenedor .nav__btn a {
     align-items: center;
     justify-content: center;
   }
-  .banner2 {
+  .banner2, .nav__contenedor {
     width: 100%;
     height: 100%;
     padding-top: 10px;
