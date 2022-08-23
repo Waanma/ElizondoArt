@@ -42,10 +42,17 @@ header {
 main{
     padding-top: 0px;    
 }
-
+/*variables*/
 $color-fondo: #5790f1;
 $color-fonts: antiquewhite;
 $fuente-nav: 'Kaushan Script', cursive;
+
+/*map get*/
+$paleta: (
+    'primario': #5790f1,
+    'secundario': antiquewhite,
+    'terciario': rgb(255, 218, 6),
+);
 
 // mixins
 
@@ -73,7 +80,7 @@ $fuente-nav: 'Kaushan Script', cursive;
 .banner2{
     width: 100%;
     height: 100%;
-    background: $color-fondo;
+    background: map-get($map: $paleta, $key: 'primario');
 }
 .titulo {
     font-family: 'The Nautigal', cursive;
