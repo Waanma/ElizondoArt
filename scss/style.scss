@@ -240,14 +240,20 @@ nav .nav__contenedor .nav__btn a{
     justify-content: center;
     align-items: center;
     font-family: 'Caveat', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     color: antiquewhite;
+}
+.blog__descripcion span{
+    color: rgb(255, 221, 0);
+}
+.vermas{
+    font-size: 1.5rem;  
 }
 .nuestrostrabajos{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 10px;
     font-family: "the nautigal", cursive;
     text-decoration: underline;
     color: antiquewhite;
@@ -420,7 +426,7 @@ nav .nav__contenedor .nav__btn a{
     -webkit-box-shadow: 6px -4px 17px 6px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px -4px 17px 6px rgba(0,0,0,0.75);
     padding: auto;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: rgb(40, 40, 40);
 }
 .contacto__formulario form{
@@ -1180,7 +1186,7 @@ nav{
     font-family: 'the nautigal', cursive;
     color: antiquewhite;
     text-shadow: 1px 1px 3px #000;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .blog__descripcion{
     width: 80%;
@@ -1194,7 +1200,9 @@ nav{
     font-size: 1rem;
     color: antiquewhite;
 }
-
+.vermas{
+    font-size: 1rem;  
+}
 .nuestrostrabajos{
     display: flex;
     justify-content: center;
