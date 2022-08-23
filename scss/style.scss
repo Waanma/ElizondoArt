@@ -1033,13 +1033,13 @@ nav .nav__contenedor .nav__btn a{
 @media only screen and (max-width:576px){
     
     /*banner*/
-    .banner1 > *{        
-        width: 100%;
-        height: 120px;
-        background-color: $color-fondo;        
-        display: flex;
-        align-items: center;
-        justify-content: center;    
+.banner1 > *{        
+    width: 100%;
+    height: 120px;
+    background-color: $color-fondo;        
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 .banner2{
     width: 100%;
@@ -1071,8 +1071,8 @@ nav{
 }
 .dropdown{
     display: flex;
-    background-color: $color-fondo;
-    padding: 15px;
+    background-color: #4974d9;
+    padding: 10px;
 }
 .dropdown-menu li a{
     font-family: $fuente-nav;
