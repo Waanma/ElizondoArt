@@ -11,14 +11,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
-    
     <!--Icono-->
     <link rel="shortcut icon" href="./Icons/pngwing.com.png" type="image/x-icon">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
-
+    <!--Libreria de animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
     <!--Links de fuentes de texto-->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
@@ -29,8 +27,6 @@
 <!--HTML semantico-->   
 <body>
    
-    <h1>hola</h1>
-
     <header class="banner1">        
         <div>
             <h1 class="titulo">
@@ -39,78 +35,85 @@
         </div> 
     </header>
 
-    <nav>
+<nav>
                 <!--Enlaces relativos-->
-            <div class="nav__contenedor">
+            <div class="nav__contenedor--main">
                 <div class="muralismo">
                     <h2 class="subtitulo">Muralismo</h2>
-                </div>
-                <div class="nav__btn">
-                <li class="vinculos"> <a href="pages/interior.html">Interior</a> </li>
-                <li class="vinculos"> <a href="pages/exterior.html">Exterior</a> </li>
-                <li class="vinculos"> <a href="pages/carteleria.html">Carteleria</a> </li>
-                <li class="vinculos"> <a href="pages/contacto.html">Contacto</a> </li>
-                </div>
             </div>              
-    </nav>
+</nav>
 
     <div class="dropdown">        
             <button class="btn btn-secondary btn-sm dropdown-toggle btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">            
             </button>
             <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="./pages/interior.html">Interior</a></li>
-            <li><a class="dropdown-item" href="./pages/exterior.html">Exterior</a></li>
-            <li><a class="dropdown-item" href="./pages/carteleria.html">Carteleria</a></li>
             <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
             </ul>        
     </div>          
 
-    <main class="banner2">                
-                <h2 class="font-murales">Murales de interior</h2>                
-            <article class="contenedor__imagenes">
-                    <img class="contenedor__murales  mural--cara" src="img/murales/interior/interiorcara.jpg" alt="6">
-                    <img class="contenedor__murales mural--altocalavera" src="img/murales/interior/personajes3.jpg" alt="1">
-                    <img class="contenedor__murales  mural--calaka" src="img/murales/interior/calaka.jpg" alt="2">
-                    <img class="contenedor__murales mural--niña" src="img/murales/interior/tokio2.jpg" alt="10">
-                    <img class="contenedor__murales  mural--hojas" src="img/murales/interior/tokio.jpg" alt="7">
-                    <img class="contenedor__murales mural--hojas2" src="img/murales/interior/interiorhops.jpg" alt="8">
-                    <img class="contenedor__murales mural--hops" src="img/murales/interior/personajes.jpg" alt="9">
-                    <img class="contenedor__murales mural--pulpo" src="img/murales/interior/interiorpulpo.jpg" alt="11">                    
+<main class="banner2">
+    <div class="contenedor__imagenes--exterior">                           
+        <article class="contenedor__imagenes">
+            <img class="contenedor__murales  mural--cara" src="img/murales/interior/interiorcara.jpg" alt="6">
+            <img class="contenedor__murales mural--personajes3" src="img/murales/exterior/iceland!.jpg" alt="1">
+            <img class="contenedor__murales  mural--calaka" src="img/murales/interior/calaka.jpg" alt="2">
+            <img class="contenedor__murales mural--tokio2" src="img/murales/interior/tokio2.jpg" alt="10">
+            <img class="contenedor__murales  mural--tokio" src="img/murales/interior/tokio.jpg" alt="7">
+            <img class="contenedor__murales mural--personajes" src="img/murales/interior/personajes.jpg" alt="9">
+            <img class="contenedor__murales mural--pulpo" src="img/murales/interior/interiorpulpo.jpg" alt="11">                    
+        </article>
+    </div>  
+
+            <article>
+                <div class="blog__contenedor">
+                        <h1>Sobre nosotros:</h1>
+                    <div class="blog__contenido"></div>
+                        <div class="blog__descripcion">
+                            <p>Somos residentes de Merlo San Luis Argentina, nos dedicamos al muralismo y la cartelería con una trayectoria de más de 30 años, expresando nuestro arte sobre la pared, cuadros, carteles, vehiculos etc.</p> 
+                            <p> Siempre con el objetivo de superar las expectativas de nuestros clientes y al público que nos mira, idealizando nuevos proyectos cada día con el fin de embellecer las calles y locales dejando nuestra marca en cada pared.</p>
+                        </div>
+                    </div>
+                </div>
             </article>
 
-                <div class="vermas">
-                    <a class="vermas__boton" href="pages/interior.html">
-                        Ver más
-                    </a>
+                <div class="nuestrostrabajos">Nuestros trabajos:</div>
+
+            <div class="trabajos__contenedor">
+                <div class="trabajos__contenido">
+                    <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="/img/murales/interior/cara_small.png" alt="Rumania">
+                        <div class="card-body">
+                            <h5 class="card-title">Rumanía</h5>
+                            <p class="card-text">Ubicación: Merlo SL, av. del sol frente al casino flamingo.</p>
+                            <a href="#" class="btn btn-warning">Ver más</a>
+                        </div>
                     </div>
-                    <h2 class="font-murales">Murales de exterior</h2>            
-                <article class="contenedor__imagenes">                        
-                        <img class="contenedor__murales mural--pasillo" src="img/murales/exterior/pasillo.jpg" alt="1">
-                        <img class="contenedor__murales mural--virgen" src="img/murales/exterior/virgen.jpg" alt="4"> 
-                        <img class="contenedor__murales mural--tchala" src="img/murales/exterior/tchala.jpg" alt="3">
-                        <img class="contenedor__murales  mural--cisnes2" src="img/murales/interior/cisnes2.jpg" alt="4"> 
-                        <img class="contenedor__murales  mural--cisnes" src="img/murales/interior/cisnes.jpg" alt="3">
-                        <img class="contenedor__murales mural--sanmartin" src="img/murales/exterior/up.jpg" alt="2">                                                               
-                </article>
-            
-                <div class="vermas">
-                <a class="vermas__boton" href="pages/exterior.html">
-                    Ver más
-                </a>
-                </div>                
-                <h2 class="font-murales">Cartelería</h2>
-                <article class="contenedor__imagenes">
-                    <img class="contenedor__murales cartel--1" src="img/murales/carteleria/cartel.jpg" alt="1">
-                    <img class="contenedor__murales cartel--2" src="img/murales/carteleria/carteles.jpg" alt="2">
-                    <img class="contenedor__murales cartel--3" src="img/murales/carteleria/carteles2.jpg" alt="3">
-                    <img class="contenedor__murales cartel--4" src="img/murales/carteleria/carteles3.jpg" alt="4">                    
-                </article>
-                <div class="vermas">
-                    <a class="vermas__boton" href="pages/carteleria.html">
-                        Ver más
-                    </a>
-                </div>     
-            </article> 
+                    <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="/img/murales/exterior/up_small.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Iceland</h5>
+                            <p class="card-text">Ubicación: Merlo San Luis, Av. del sol 1800.</p>
+                            <a href="/pages/iceland.html" class="btn btn-warning">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="/img/murales/interior/calaka_small.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Alto Calavera</h5>
+                            <p class="card-text">Ubicacion: Merlo SL, Av del sol al lado del hotel Casa Blanca.</p>
+                            <a href="/pages/altocalavera.html" class="btn btn-warning">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="/img/murales/interior/hops__small.png" alt="Hops">
+                        <div class="card-body">
+                            <h5 class="card-title">Hops</h5>
+                            <p class="card-text"> Bar Hops, ubicado en Villa Dolores San Luis Argentina. </p>
+                            <a href="#" class="btn btn-warning">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="contacto__main--index">
                 <div class="contacto__contenedor">        
@@ -123,7 +126,7 @@
                                             <input class="form-control" id="floatingInput" name="nombre" placeholder="Nombre" required>
                                         </label>
                                     </p>
-                                    <p>                                                               
+                                    <p>                                                             
                                             <input class="form-control" id="floatingInput" type="text" name="apellido" placeholder="Apellido" required>                                        
                                     </p>
                                     <p>                                                               
@@ -143,9 +146,9 @@
                     </div>
                 </div>            
             </div>                            
-    </main>
+</main>
 
-    <footer class="footer__master">   
+<footer class="footer__master">   
             <div class="footer__icono">
                 <a href="https://www.whatsapp.com/?lang=es" target="_blank">
                     <img class="contactos" src="icons/icons8-whatsapp-200.png" alt="Whatsapp">
@@ -161,7 +164,7 @@
                     <img class="contactos" src="icons/icons8-instagram-200.png" alt="Instagram">
                 </a>
             </div>    
-    </footer>    
+</footer>    
 
     <!--BOOTSTRAP el script (ya que es un script de javascript) se pone antes del cierre de body para que carguen bien las animaciones-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
