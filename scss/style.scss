@@ -81,7 +81,6 @@ $fuente-nav: 'Kaushan Script', cursive;
 }
 
 /*===============================================NAV====================================*/
-
 .nav__contenedor--main{
     display: flex;
     justify-content: center;
@@ -94,6 +93,12 @@ $fuente-nav: 'Kaushan Script', cursive;
     padding-top: 40px;
     @extend .banner2;
 }
+.nav__contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   @extend .banner2;
+    padding-top: 30px;
+}
 .muralismo{
     display: flex;
     justify-content: center;
@@ -105,7 +110,7 @@ nav .nav__contenedor .nav__btn a{
     color: $color-fonts;
 }
 .subtitulo{
-    font-size: 7rem;
+    font-size: 8rem;
     font-family: 'the nautigal', cursive;
     color: $color-fonts;
 }
