@@ -42,8 +42,12 @@
             </div>              
         </nav>
 
+        <div class="boton__contacto">
+            <a href="pages/contacto.html" >Contacto</a>
+        </div>
+
     <div class="dropdown">        
-            <button class="btn btn-secondary btn-sm dropdown-toggle btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">            
+            <button class="btn btn-secondary btn-sm dropdown-toggle btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">            
             </button>
             <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
@@ -59,10 +63,18 @@
             <img class="contenedor__murales mural--tokio2" src="img/murales/interior/tokio2.jpg" alt="10">
             <img class="contenedor__murales  mural--tokio" src="img/murales/interior/tokio.jpg" alt="7">
             <img class="contenedor__murales mural--personajes" src="img/murales/interior/personajes.jpg" alt="9">
-            <img class="contenedor__murales mural--pulpo" src="img/murales/interior/interiorpulpo.jpg" alt="11">                    
+            <img class="contenedor__murales mural--pulpo" src="img/murales/interior/interiorpulpo.jpg" alt="10">
+            <img class="contenedor__murales mural--cisne" src="img/murales/interior/cisnes.jpg" alt="11">
+            <img class="contenedor__murales mural--cisne2" src="img/murales/interior/cisnes2.jpg" alt="12">   
+            <img class="contenedor__murales mural--tokio5" src="img/murales/interior/tokio5.jpg" alt="13">
+            <img class="contenedor__murales mural--hops2" src="img/murales/interior/hops2.PNG" alt="14"> 
+            <img class="contenedor__murales mural--nemo1" src="img/murales/interior/nemo.jpg" alt="15"> 
+            <img class="contenedor__murales mural--bomberos1" src="img/murales/exterior/bomberos.jpg" alt="16">  
+            <img class="contenedor__murales mural--ilusion1" src="img/murales/exterior/ilusion.jpg" alt="17">
+            <img class="contenedor__murales mural--tokio6" src="img/murales/interior/tokio6.jpg" alt="18">             
         </article>
-    </div>  
-
+    </div>
+     
             <article>
                 <div class="blog__contenedor">
                         <h1>Sobre nosotros:</h1>
@@ -75,6 +87,16 @@
                 </div>
             </article>
 
+            <article class="contenedor__nosotros-ext">
+                <div class="contenedor__nosotros">
+                    
+                    <img class="more" src="img/nosotros/more(Small).PNG" alt="1">
+                    <img class="vero1" src="img/nosotros/vero1(Small).PNG" alt="2">
+                    <img class="vero2" src="img/nosotros/vero2(Small).PNG" alt="3">
+                    <img class="vero4" src="img/nosotros/vero4(Small).PNG"alt="5">            
+                </div>
+            </article>
+
                 <div class="nuestrostrabajos">Nuestros trabajos:</div>
 
             <div class="trabajos__contenedor">
@@ -84,7 +106,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Rumanía</h5>
                             <p class="card-text">Ubicación: Merlo SL, av. del sol frente al casino flamingo.</p>
-                            <a href="#" class="btn btn-warning vermas" style="width: 10rem">Ver más</a>
+                            <a href="pages/rumania.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
                         </div>
                     </div>
                     <div class="card" style="width: 20rem;">
@@ -92,7 +114,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Iceland</h5>
                             <p class="card-text">Ubicación: Merlo San Luis, Av. del sol 1800.</p>
-                            <a href="pages/iceland.html" class="btn btn-warning vermas" style="width: 10rem">Ver más</a>
+                            <a href="pages/iceland.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
                         </div>
                     </div>
                     <div class="card" style="width: 20rem;">
@@ -100,7 +122,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Alto Calavera</h5>
                             <p class="card-text">Ubicacion: Merlo SL, Av del sol al lado del hotel Casa Blanca.</p>
-                            <a href="pages/altocalavera.html" class="btn btn-warning vermas" style="width: 10rem">Ver más</a>
+                            <a href="pages/altocalavera.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
                         </div>
                     </div>
                     <div class="card" style="width: 20rem;">
@@ -108,66 +130,66 @@
                         <div class="card-body">
                             <h5 class="card-title">Hops</h5>
                             <p class="card-text"> Bar Hops, ubicado en Villa Dolores San Luis Argentina. </p>
-                            <a href="pages/hops.html" class="btn btn-warning vermas" style="width: 10rem">Ver más</a>
+                            <a href="pages/hops.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
                         </div>
                     </div>
-                </div>
-            </div>   
-
-            <div class="contacto__main--index">
-                <div class="contacto__contenedor">        
-                    <div class="contacto__formulario">        
-                        <form class="form form-floating mb-3" action="procesar.php" name="contacto" method="post">        
-                                    <h1 class="legend">¡Hace tu consulta!</h1> <!--mensaje-->                                
-                                    <!--Formulario-->
-                                    <p>                                                                
-                                            <input class="form-control" id="floatingInput" name="nombre" placeholder="Nombre" required>
-                                        </label>
-                                    </p>                                                          
-                                    <p> 
-                                            <input class="form-control" id="floatingInput" type="text" name="apellido" placeholder="Apellido" required>                                        
-                                    </p>
-                                    <p>                                                               
-                                            <input class="form-control" id="floatingInput" type="email" name="email" placeholder="Ejemplo@mail.com" required>                                        
-                                    </p>        
-                                    <p class="textarea">
-                                        <textarea name="Dejanos tu mensaje" id="" cols="20" rows="5"></textarea>
-                                    </p>
-                                    
-                                    <!--Botones-->
-                                    <div class="enviar">
-                                        <button type="submit">Enviar</button>
-                                    </div>
-                                    <div class="borrar">
-                                        <button type="reset">Borrar</button>
-                                    </div>                                                  
-                        </form>        
+                    <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="/img/murales/interior/gringo(small).png" alt="gringo">
+                    <div class="card-body">
+                            <h5 class="card-title">El gringo</h5>
+                            <p class="card-text"> El gringo, ubicado en av del deporte frente al casino flamingo. </p>
+                            <a href="pages/elgringo.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
+                        </div>
                     </div>
-                </div>            
-            </div>                            
+                    <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="/img/murales/interior/africa(small).png" alt="africa">
+                    <div class="card-body">
+                            <h5 class="card-title">Africa</h5>
+                            <p class="card-text"> Bar Africa, ubicado en Av. del sol a metros del casino flamingo. </p>
+                            <a href="pages/africa.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="/img/murales/interior/crocante(small).png" alt="crocante">
+                    <div class="card-body">
+                            <h5 class="card-title">Crocante</h5>
+                            <p class="card-text"> Crocante, rotisería ubicada en calle X al 1200. </p>
+                            <a href="pages/crocante.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="/img/murales/interior/tokiocara.png" alt="tokio">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokio Dolce</h5>
+                        <p class="card-text"> tokio dolce, cafetería ubicada en av. del sol 1550. </p>
+                        <a href="pages/tokio.html" class="btn btn-primary vermas" style="width: 10rem">Ver más</a>
+                    </div>
+                    </div>
+                </div>
+            </div>                
     </main>    
 </main>
 
-
-  
-
-    <footer class="footer__master">      
-            <div class="footer__icono">
-                <a href="https://www.whatsapp.com/?lang=es" target="_blank">
-                    <img class="contactos" src="icons/icons8-whatsapp-200.png" alt="Whatsapp">
-                </a>
-            </div>
-            <div class="footer__icono">
-                <a href="https://www.facebook.com" target="_blank">
-                    <img class="contactos" src="icons/icons8-facebook-nuevo-200.png" alt="Facebook">
-                </a>
-            </div>
-            <div class="footer__icono">
-                <a href="https://www.instagram.com" target="_blank">
-                    <img class="contactos" src="icons/icons8-instagram-200.png" alt="Instagram">
-                </a>
-            </div>        
-    </footer>   
+        <footer class="footer__footer"> 
+                <div class="footer__master">               
+                    <div class="footer__icono">
+                        <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+                            <img class="contactos" src="icons/icons8-whatsapp-200.png" alt="Whatsapp">
+                        </a>
+                    </div>
+                    <div class="footer__icono">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img class="contactos" src="icons/icons8-facebook-nuevo-200.png" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class="footer__icono">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img class="contactos" src="icons/icons8-instagram-200.png" alt="Instagram">
+                        </a>
+                    </div> 
+                </div>  
+                
+        </footer>   
    
     <!--BOOTSTRAP el script (ya que es un script de javascript) se pone antes del cierre de body para que carguen bien las animaciones-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
